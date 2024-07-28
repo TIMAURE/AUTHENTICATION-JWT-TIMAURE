@@ -1,0 +1,29 @@
+.private-area {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .btn-custom {
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-custom:hover {
+    background-color: #495057;
+  }
